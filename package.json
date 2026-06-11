@@ -1,0 +1,30 @@
+{
+  "name": "vscode-rl",
+  "displayName": "rl Language Support",
+  "description": "Syntax highlighting for the rl programming language",
+  "version": "0.0.1",
+  "publisher": "MohamedGonem",
+  "engines": { "vscode": "^1.74.0" },
+  "categories": ["Programming Languages"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MohamedGonem/vscode-rl"
+  },
+  "contributes": {
+    "languages": [
+      {
+        "id": "rl",
+        "aliases": ["rl", "RL"],
+        "extensions": [".rl"],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "rl",
+        "scopeName": "source.rl",
+        "path": "./syntaxes/rl.tmLanguage.json"
+      }
+    ]
+  }
+}
