@@ -1,6 +1,6 @@
 {
   "name": "vscode-rl-syntax-highlighting",
-  "displayName": "rl-lang - language highlighting",
+  "displayName": "rl-lang - language syntax highlighting",
   "description": "Syntax highlighting for the rl programming language",
   "version": "0.0.5",
   "publisher": "MohamedGonem",
