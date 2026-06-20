@@ -1,22 +1,21 @@
-# rl-lang — VS Code Syntax Highlighting
+# rl-lang - VS Code Syntax Highlighting
 
-Syntax highlighting for [rl-lang](https://github.com/MohamedGonem/vscode-rl), a custom programming language built in Rust.
+Syntax highlighting for [rl-lang](https://github.com/rl-lang/rl-lang), a statically typed interpreted language built in Rust.
 
 ## Features
 
-- Syntax highlighting for `.rl` files
-- Keywords, operators, literals, strings, and comments highlighted
-- Based on TextMate grammar for broad theme compatibility
+- Syntax highlighting for .rl files
+- Keywords, operators, literals, strings, and comments
+- Based on TextMate grammar so it works with any theme
 
 ## Usage
 
-Install the extension, then open any `.rl` file — highlighting is applied automatically.
+Install the extension and open any .rl file. Highlighting is applied automatically.
 
-If VS Code doesn't detect the language, select **RL** manually from the language picker in the status bar.
+If VS Code doesn't detect the language, select RL from the language picker in the bottom status bar.
 
 ## Example
 
-```rl
 dec int x = 10
 dec string name = "rl-lang"
 
@@ -25,14 +24,15 @@ fn greet(string name) {
 }
 
 greet(name)
-```
+## Related
 
-## About rl-lang
+- [vscode-rl-lsp](https://github.com/rl-lang/vscode-rl-lsp) - diagnostics and hover via the rl language server
+- [vscode-rl-lang](https://github.com/rl-lang/vscode-rl-lang) - run, check, and scaffold projects from the editor
 
-`rl-lang` is an interpreted programming language written in Rust, featuring a lexer, parser, AST evaluator, and an interactive REPL. This extension adds editor support for writing `.rl` programs in VS Code.
+## Links
 
-- Language repository: [rl-lang](https://github.com/MohamedGonem/rl-lang)
-- Extension repository: [vscode-rl](https://github.com/MohamedGonem/vscode-rl) 
+- Language: [rl-lang/rl-lang](https://github.com/rl-lang/rl-lang)
+- Extension: [rl-lang/vscode-rl](https://github.com/rl-lang/vscode-rl)
 
 ## License
 
