@@ -1,11 +1,15 @@
 {
-  "name": "vscode-rl",
+  "name": "vscode-rl-syntax-highlighting",
   "displayName": "rl-lang - language highlighting",
   "description": "Syntax highlighting for the rl programming language",
-  "version": "0.0.3",
+  "version": "0.0.5",
   "publisher": "MohamedGonem",
-  "engines": { "vscode": "^1.74.0" },
-  "categories": ["Programming Languages"],
+  "engines": {
+    "vscode": "^1.74.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
   "icon": "icon.png",
   "repository": {
     "type": "git",
@@ -15,8 +19,13 @@
     "languages": [
       {
         "id": "rl",
-        "aliases": ["rl", "RL"],
-        "extensions": [".rl"],
+        "aliases": [
+          "rl",
+          "RL"
+        ],
+        "extensions": [
+          ".rl"
+        ],
         "configuration": "./language-configuration.json"
       }
     ],
